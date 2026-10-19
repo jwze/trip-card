@@ -1,0 +1,24 @@
+{
+  "id": "./",
+  "name": "行程卡纪念版",
+  "short_name": "行程卡",
+  "description": "通信大数据行程卡纪念版，仅供展示。",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#2ba667",
+  "theme_color": "#2ba667",
+  "icons": [
+    {
+      "src": "./static/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./static/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

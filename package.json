@@ -1,0 +1,21 @@
+{
+  "name": "trip-card",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "行程卡纪念版，纯静态网页。",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "build": "node build.mjs",
+    "preview": "node tools/serve.mjs --build",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwze/trip-card.git"
+  },
+  "homepage": "https://jwze.github.io/trip-card/"
+}

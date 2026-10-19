@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2ba667">
+  <meta name="description" content="通信大数据行程卡纪念版，仅供怀念与展示。">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>行程卡纪念版</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./static/img_arrow@2x.png">
+  <link rel="apple-touch-icon" href="./static/img_arrow@2x.png">
+  <link rel="stylesheet" href="./app.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <span>通信行程卡</span>
+    <div class="capsule" aria-hidden="true">
+      <svg viewBox="0 0 64 28"><circle cx="32" cy="14" r="9.5"/><circle cx="54" cy="14" r="6"/><circle cx="10" cy="14" r="6"/></svg>
+      <span class="capsule-splitter"></span>
+      <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="9"/><circle cx="30" cy="30" r="23" stroke="currentColor" stroke-width="6" fill="none"/></svg>
+    </div>
+  </header>
+  <main class="container">
+    <img class="home" src="./static/g2.png" alt="通信大数据行程卡">
+    <section class="main" aria-label="行程卡">
+      <img class="tel1_phone" src="./static/withtext@2x.png" alt="请收下绿色行程卡">
+      <h1 class="text1"><button id="phone" type="button" title="点击修改手机号码">138****0000</button>的动态行程卡</h1>
+      <p class="text2">更新于：<time id="datetime"></time></p>
+      <div class="tel2"><img class="tel2_phone" src="./static/gif_green.gif" alt="绿色行程卡箭头"></div>
+      <div class="tel4_end">
+        <span class="tel4_phone_text">您于前7天内到达或途经：</span><button id="places" type="button" title="点击修改途经地点">北京市</button>
+      </div>
+    </section>
+    <p class="notice">结果包含您在前7天内到访的国家（地区）与停留4小时以上的国内城市</p>
+    <p class="notice">色卡仅对到访地作提醒，不关联健康状况</p>
+    <div class="section"><span>本服务联合提供</span></div>
+    <div class="imag_section">
+      <img class="caict" src="./static/xty0.png" alt="中国信通院">
+      <img class="imag_section1" src="./static/dianxin0.png" alt="中国电信">
+      <img class="imag_section2" src="./static/yidong0.png" alt="中国移动">
+      <img class="imag_section3" src="./static/liant0.png" alt="中国联通">
+      <img class="imag_section4" src="./static/guangdian0.png" alt="中国广电">
+    </div>
+    <p class="service_tel">客服热线：10000 / 10086 / 10010 / 10099</p>
+    <div class="imag_section6">
+      <img class="imag_ucload" src="./static/ucload.png" alt="UCloud">
+      <span>提供云服务技术支持</span>
+    </div>
+    <footer>
+      <p>纪念版 · 仅供展示，不作为出行或健康凭证</p>
+      <p>点击手机号或地点修改，信息仅保存在当前浏览器。</p>
+      <p>可通过浏览器菜单添加至主屏幕，首次联网加载后支持离线访问。</p>
+      <button id="reset" type="button">重置填写信息</button>
+    </footer>
+    <noscript>请开启 JavaScript 以修改信息和显示时间。</noscript>
+  </main>
+</body>
+</html>
